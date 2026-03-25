@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Siahh Sharma">
+    <meta name="discription" content="learn about my luxary clothing brand">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="style.css">
+    <title>TAMOSS</title>
+
+<body>
+    <!-- Start the page head -->
+    <header>
+        <span><B>TAMOSS</B></span>
+    </header>
+    <!-- Start the page navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li> 
+            <li><a href="about.html">ABOUT</a></li> 
+            <li><a href="Vogue.html">Vogue</a></li>
+            <li class="active"><a href="forms.html"> Atelier</a></li>
+            
+
+        </ul>
+    </nav>
+
+    <!-- Start the main content -->
+    <main>
+       
+        <h1>Request a Delivery</h1>
+    <form method="get" class="myForm" action="thanks.html">
+        <fieldset>
+    <legend>Customer Information</legend>
+    <label>First Name*<input type="text" name="fname" required>
+    </label>
+    <label>Last Name*<input type="text" name="lname" required>
+    </label>
+    <label>Cell Number*<input type="tel" name="phone" required placeholder="9875551234">
+    </label>
+    <label>Email*<input type="email" name="email" required placeholder="abcd@gmail.com">
+    </label>
+    </fieldset>
+
+    <fieldset>
+        <legend>The Minimalist</legend>
+        <label><input type="radio" name="method" value="store">In Store</label>
+       
+        <label><input type="radio" name="method2" value="Online"> Online </label>
+    </fieldset>
+
+     <fieldset>
+    <legend>Premiere</legend>
+        <select name="time">
+        <option value="morning">6:00 Am - 6:30 Am </option>
+        <option value="afternoon">4:00 Pm - 4:30 Pm</option>
+        <option value="night">9:00 Pm - 9:30Pm </option>
+    </fieldset>
+
+     <fieldset> 
+        <legend> Conveyance </legend>
+        <label><input type="checkbox" name ="porch" value="chosen"> Front Porch </label>
+        <label><input type= "checkbox" name="Hand" value="chosen">Hand to Hand</label>
+        <label><input type= "checkbox" name="work" value="chosen">work</label>
+     </fieldset>
+      <label>Nuances</label>
+            <textarea name="comments">Please add any specifications</textarea>
+    
+        
+        <input type="submit" value="Send Delivery Request">
+    </main>
+    <!-- Start the footer -->
+    <footer>
+        <p>&copy;2026 &bull; TAMOSS &bull; Inc.</p>
+
+    </footer>
+</body>
+
+</html>
